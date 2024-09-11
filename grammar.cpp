@@ -87,7 +87,7 @@ void Grammar::printGrammar() const {
     for (auto it = productions.begin(); it != productions.end(); ++it) {
         cout << it->first << " -> ";
 
-        // Loop through the productions and print each one
+        // Loop through the productions and print each one inin mini minimo
         for (size_t i = 0; i < it->second.size(); ++i) {
             cout << it->second[i];
             // Print " | " only between productions, not after the last one
